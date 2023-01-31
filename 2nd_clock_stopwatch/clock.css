@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(90, 75, 75);
+    width: 30%;
+}
+
+#box div {
+    padding: 10px;
+}
+
+.c {
+    font-size: 35px;
+    border: 2px solid black;
+    margin-top: 3px;
+    border-radius: 10px;
+    color: rgb(45, 45, 207);
+    background-color: grey;
+}
+
+#but {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#but div button {
+    font-size: 25px;
+}
+
+#stt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#stt div button {
+    color: brown;
+    font-size: 15px;
+}
