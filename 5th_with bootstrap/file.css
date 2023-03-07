@@ -1,0 +1,95 @@
+/* .carousel-inner {
+    max-height: 90vh;
+    max-width: 80%;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carouselExampleIndicators {
+    margin: auto;
+}
+
+.image {
+    max-height: 98vh;
+    min-height: 250px;
+}
+
+#heading {
+    font-size: 35px;
+    color: brown;
+    text-align: center;
+}
+
+#box {
+    background-color: cadetblue;
+    border: 4px solid black;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+
+#tem {
+    background-color: rgb(112, 187, 181);
+    /* height: 40vh; */
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.inp {
+    border: 4px solid rgb(78, 76, 76);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#but {
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#but button {
+    font-size: 30px;
+}
+
+@media screen and (max-width:904px) and (min-width:683px) {
+    #tem {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:683px) and (min-width:397px) {
+    #tem {
+        flex-direction: column;
+    }
+    .inp {
+        width: 100%;
+    }
+    #box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:397px) {
+    #tem {
+        width: 100%;
+        flex-direction: column;
+    }
+    .inp {
+        width: 100%;
+    }
+    #box {
+        width: 100%;
+    }
+}
